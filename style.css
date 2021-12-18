@@ -1,8 +1,5 @@
 :root{
     --pink:#e84393;
-    --whatsap: #34af23;
-    --whatsap2:#00a000;
-
 }
 
 *{
@@ -92,14 +89,9 @@ header .icons a{
     margin-left: 1.5rem;
 }
 
-header .icons a:hover{
+header .icons i:hover{
     color:var(--pink);
 }
-
-header .icons i:hover{
-    color: var(--whatsap2);
-}
-
 
 header #toggler{
     display: none;
@@ -484,9 +476,22 @@ header .fa-bars{
     color: var(--pink);
 }
 
+.footer .box-container .box ai{
+    display: block;
+    color:#666;
+    font-size: 1.5rem;
+    padding:1rem 0;
+    text-transform: lowercase;
+}
 
+.footer .box-container .box ai:hover{
+    color:var(--pink);
+    text-decoration: underline;
+}
 
-
+.footer .box-container .box  img{
+    margin-top: 1rem;
+}
 
 
 
